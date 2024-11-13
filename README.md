@@ -9,4 +9,5 @@ XSSIGHT is an XSS vulnerability detection tool that helps identify potential cro
 ## Usage
 
 ```bash
-python xss.py -u "https://example.com/search?query=" -w "/path/to/payloads.txt"
+python xssight.py -u "https://example.com/search?query=" -w "/path/to/payloads.txt"
+python xssight.py -h 
